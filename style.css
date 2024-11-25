@@ -1,0 +1,17 @@
+card-body img{
+    height: 500px;
+    float: left;
+    margin-right: 30px;
+}
+
+h1{
+    text-align: center;
+    font-size: 28px;
+}
+.card{
+    text-align: center; 
+}
+
+data-bs-spy{
+    position: relative;
+}

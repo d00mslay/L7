@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Лабораторная работа 6</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section1">Фотографии</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">Фильмы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section3">Информация</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="films.html">Список фильмов </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#"> Ссылка 1 </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"> Ссылка 2 </a>
+            </li>
+        </ul>
+    </nav>
+    <div>
+        <h1 class="h1"> Брэд Питт</h1>
+    </div>
+    <div id="section1" class="container-fluid text-white" style="padding:100px 20px;">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="1.png" alt="Los Angeles" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="2.jpg" alt="Chicago" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://kinotv.ru/upload/delight.webpconverter/upload/setka-editor/8b3/o6u4meqf3wq7x8b87k2nczt1vu6p00k1.jpg.webp?1719229472256556"
+                        alt="New York" class="d-block" style="width:100%">
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+
+    <div id="section2" class="container-fluid" style="padding:100px 20px;">
+        <div class="container mt-3" style="display: flex; flex-direction: row; justify-content: center;">
+            <div class="card" style="width: 400px; margin: 20px">
+                <div class="card-header"> 11 Друзей Оушена</div>
+                <img class="card-img"
+                    src="https://kinopoisk-ru.clstorage.net/1h5nT8156/5a3fd9hjho/-lwuWOIrh-9GZqjIsgE96W71Vqkmoq786WsHi_FQJcIoTBJOIEsCbrC3QZLGbDkRU0-RXFTN_bLYivmb5cggJLhbaVu9Oci3Fjixg-IKabQg41v4M-nmr612FNuvDwryAH47PAZ0Kk6c1gfSgXZrTAsP0lIFhqGpzs-Lp6THQ2HiXj5a1i_q4Elby-KxFSngWbhVnQv6vNj8KTSrzU0t5gdeNRsASit6svIb0p07b2gTLNNzNZuL1MvQkLLMykJmznYjU9Qr-s9tU87dhR8XyHiheb4Z4oPy1Qwuu_FYB8wFfAkGHVE7apD_JdWRKUFhLAjocyiZqM7S95yIw-dSRNR_KXDiK-XkdG3H3IUWNNlxtUqvAvuE8_IzNJvzaCfiKXAKJABcGkSh6Qn1nQJyYysT5EwZkbD3_vuWm9z4W2X1VTJ9_i7T61dg__CVODbNVYJCqCTXotX-Jw2yyno77jNsIDonUBlzu90a57sPRnYANuhrOo-Y8_jppbnC3XBEyFYqatIy88pYQNfHtAUr1VmcV64n5YXL5wcPpNdnGs8JUDskAHAIZoHoAOamCFhODwzLWA-PmvHuzqyw1dp1fv9SMHjoH-Hqd2zy_ZEeCcpTrF-tJcOk_NUyOIPMVy3lBXYVOy1RBkGdySPtmixqQB8S0HMGsYnd3sKyjujwVE3CSil09Q_xx0dg9PC_GBP2RbBPiwD-jMnbFgWE7lcv9C5MMiQBYTpRlu400pUzcFIrLuhOAISZ0erqjY_93VNG-FwwU9Eq3c1yVPb6uyAQ60CfX7oW1IfuyQg5kdhPB-sNcA0hIU4QRaHUHOC_FVRkKiLtVyqmrfbV2IWX99xtcf1PL27hO_nublzx9ZYKKOt1jWycIOav8OgQFZvOXDvFLHUMAht-BF2U9BTMvQlibTE07XwBk6HK2tSmv9z7cUfkby5B_j7F02ZywdqUKS7kcYJvnwbOpMrYFhu070YayTJnCgQhfCpOgfQ-0LkNVlYwBMdnNZm43_n4lrvKxnxK3Eo8WOgx5-pIVOX9hi4TxFOQcZQA5JDv0yEljvhWDPcrRzgsKkoOTb3aO_SYH1FpLRDUfCm8nMDp0qKS_e9iR_5yDWj8MtvmanrF0pAqEONhqVCqF8uxzPsyHIrJVi_cM3YeACZOLUWn4RzLlRpSSCcS500LkIbJ_fajiezITmTfew933h_qyEFx8ParJDvcQLJPqwjogs_KDSmx2Fc_zhVxPA8aRBlRl9c26LkCZ24DBMx8CYWv78nJsp3nw1Jo7ncbUOA34elXduHZoyEyw1CJT6A-_rzq6Q4ukMtYNOkKRSskMFI3U53vP928HElSCC3wdQKFmuDszpWv48pbW9psOHL-Ms7pVEHu9ZU8I_ljjHSOGv-zwdk1KZLLZT7YEH4aOhpeEUWd0yXfuRZEYD0v8VYYnLDTxey_t_XGYmH0URZcxj799FtWysiEFiHYcbVLvhjKsO36DiSj_U8Z5SxzABATVQdhndMq6aELamkqEvVyFYSyxfrTpIjL7mZd_1cjcsYOzcRHZ9LSuT0W9Fi1W5kX3Z7S2S8-j81cJs8yeBQyD3QkTKHeBtWOEnlREArRTjiPiMbO37-7zMNVT8ZMG1zGC83Ed3HL0J4gO85Bi2yuGvqN09YBKZvPSgHKBlYANR9pLmit8T3kmApTTyo47loOtqvk2OKHtML5UW3YSQ5R3jHuy0ZA7siqHTjfXY1tqAfrsOvZARu38mYf4gpLFQ85STVjnO8U6pcUcHMUDvhwA4Oe183egb707nBT60ocfOkvz_ZyR-jEmTUU4FGPbbQiwKXf9zIGm8lNO8sRfjoFBVQRSIb8Nf2fDnhnNRnQZSGhgc_V956r8uJZYvlXHXrxPv7Xe3bU2ooINMp3nVaCJNWkz94xDafddhToGWkDDwVCL2KGzgbEgTVSfyEy0FAgvo3Mz_OAi-Hsfn7GWAty2Q7Dxm9579aFLijWe59XnxTqnOjYAh6t6UcP-DB5NCcEcixbuf0cyLo9YV0_COlIPYSs8fTPlpTy5lBK-3QzSfUOysduTfPaqxoWx366Tq0394vjyg86sNhMJ-skdiEqJmE6So_qMteuDUlgLw7oWzSsgN3G_YSXzO16R-pWKHreLMryUlbU16UrLs96n3S0KvWnwfUBPZTSVBHENkwtGxhqEF-44RHBvA1NRAsQ8ksEkJ7t7vyWnsb-bmH7bTxuxgv_6FBY9cCEGz_UU5l6nCPHhdvFFhiu-E0d6DJ9LAsfbQxjnusi3K8xalMEBdVrHLeh0ubAk6ztxk1E308QbfYSwcFuYtDlhSMuy3mOXJ4664bc_jI5lN1sJvgRTTc1CGUJQ573NvefN29_EwvpVDW2uuPo4JyAzt9AWvxzAnTcGsrrQ3Hi-IoNNv93mUqBJfSr8f8IIZD3RTj1NWw_NwpzCH6h-Tn1ohdwUy0J9mggv7vqxv-igsvbe0P8ax9g3Qvv91JbytW6CR74QbNNjzfurPjVNjSW9X4b2AJFMC0kYjVhgN0x1Zo7emM2LPRcLqyc4PHcsbThxm5N6nExSd86z-RDWszzmRUsyVC2QY0C_4Pa7i8-h_VyDdUpWhcoLUAHZpvOFd29KmVoKxbncwCfh_3SypiR9t1WatlIFH_eCuTtdUzs-pwuFch9g1WtIf6z-uo1KKT3ZTjJA34zMAdeD3Gz4TX9kBd6fTAt1FUHlKPdyd2-sez-UFPPfjNNxh_Y1Wp998GRFi70erhNhSXdqNzSESu1yksHzDllFy0xdBFtkv030oEMYWcqKeRXKaaZ7vjJmpzo31lH-ncqevEv3cRAXOf0vB8R-mOaQLsDyaH-zjE7rdpGMfUgeBUUPk4qRZrdCeKGEHhiEzfyUjmQoOnv3LGo5uJSYMprFlv5MeH6VFLO57IBI958un2DHsCb3ucvHaX4fjH4FG0RETNwN3uh4j_kvT9EUjMT8E0igKLz7fY">
+                <div class="card-body">
+                    После выхода из тюрьмы вора Дэнни Оушена не проходит и 24
+                    часов, а он уже планирует организовать самое сложное
+                    ограбление казино в истории. Он хочет украсть 160 млн
+                    американских долларов из трёх самых преуспевающих казино
+                    Лас-Вегаса. Все эти казино принадлежат элегантному и в то же
+                    время жестокому дельцу Терри Бенедикту, который только и
+                    мечтает о том, как встретится с бывшей женой Дэнни Оушена -
+                    Тесс.
+
+                    Всего за одну ночь Дэнни подбирает команду из одиннадцати
+                    «специалистов», способных совершить эту дерзкую кражу. В
+                    команде Оушена оказываются первоклассный карточный шулер,
+                    молодой искусный вор-карманник и гениальный разрушитель.
+                    Ч тобы совершить этот безумный и сложный грабёж, Оушену
+                    придётся рисковать своей жизнью.
+                </div>
+                <div class="card-footer">
+                    <a class="btn btn-primary" href="https://www.kinopoisk.ru/film/770/"
+                        style="margin-left: 40%; margin-right: 40%;">
+                        Ссылка</a>
+                </div>
+            </div>
+            <div class="card" style="width: 400px; margin: 20px">
+                <div class="card-header"> Бойцовский клуб</div>
+                <img class="card-img-top" src="фильм1.png">
+                <div class="card-body">
+                    Сотрудник страховой компании страдает хронической
+                    бессонницей и отчаянно пытается вырваться из мучительно
+                    скучной жизни. Однажды в очередной командировке он встречает
+                    некоего Тайлера Дёрдена — харизматического торговца мылом с
+                    извращенной философией. Тайлер уверен, что
+                    самосовершенствование — удел слабых, а единственное, ради
+                    чего стоит жить, — саморазрушение.
+
+                    Проходит немного времени, и вот уже новые друзья лупят друг
+                    друга почем зря на стоянке перед баром, и очищающий мордобой
+                    доставляет им высшее блаженство. Приобщая других мужчин к
+                    простым радостям физической жестокости, они основывают
+                    тайный Бойцовский клуб, который начинает пользоваться
+                    невероятной популярностью. </div>
+                <div class="card-footer">
+                    <a class="btn btn-primary" href="https://www.kinopoisk.ru/film/361/"
+                        style="margin-left: 40%; margin-right: 40%">
+                        Ссылка</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 400px; margin: 20px">
+                <div class="card-header"> Отступники</div>
+                <img class="card-img-top"
+                    src="https://kinopoisk-ru.clstorage.net/1h5nT8156/5a3fd9hjho/-lwuWOIrh-9GZqjIsgE96W71Vqkmoq786WsHi_FQJcIoTBJOIEsCbrC3QZ3PYDgcXE_EDw_C-raLjPnMt8ovJLheOw-9YM-0FTixgOJWOL507AuqY7Tmr612FNuvDwryAH47PAZ0Kk6c1gfSgXZrTAsP0lIFhqGpzs-Lp6THQ2HiXj5a1i_q4Elby-KxFSngWbhVnQv6vNj8KTSrzU0t5gdeNRsASit6svIb0p07b2gTLNNzNZuL1MvQkLLMykJmznYjU9Qr-s9tU87dhR8XyHiheb4Z4oPy1Qwuu_FYB8wFfAkGHVE7apD_JdWRKUFhLAjocyiZqM7S95yIw-dSRNR_KXDiK-XkdG3H3IUWNNlxtUqvAvuE8_IzNJvzaCfiKXAKJABcGkSh6Qn1nQJyYysT5EwZkbD3_vuWm9z4W2X1VTJ9_i7T61dg__CVODbNVYJCqCTXotX-Jw2yyno77jNsIDonUBlzu90a57sPRnYANuhrOo-Y8_jppbnC3XBEyFYqatIy88pYQNfHtAUr1VmcV64n5YXL5wcPpNdnGs8JUDskAHAIZoHoAOamCFhODwzLWA-PmvHuzqyw1dp1fv9SMHjoH-Hqd2zy_ZEeCcpTrF-tJcOk_NUyOIPMVy3lBXYVOy1RBkGdySPtmixqQB8S0HMGsYnd3sKyjujwVE3CSil09Q_xx0dg9PC_GBP2RbBPiwD-jMnbFgWE7lcv9C5MMiQBYTpRlu400pUzcFIrLuhOAISZ0erqjY_93VNG-FwwU9Eq3c1yVPb6uyAQ60CfX7oW1IfuyQg5kdhPB-sNcA0hIU4QRaHUHOC_FVRkKiLtVyqmrfbV2IWX99xtcf1PL27hO_nublzx9ZYKKOt1jWycIOav8OgQFZvOXDvFLHUMAht-BF2U9BTMvQlibTE07XwBk6HK2tSmv9z7cUfkby5B_j7F02ZywdqUKS7kcYJvnwbOpMrYFhu070YayTJnCgQhfCpOgfQ-0LkNVlYwBMdnNZm43_n4lrvKxnxK3Eo8WOgx5-pIVOX9hi4TxFOQcZQA5JDv0yEljvhWDPcrRzgsKkoOTb3aO_SYH1FpLRDUfCm8nMDp0qKS_e9iR_5yDWj8MtvmanrF0pAqEONhqVCqF8uxzPsyHIrJVi_cM3YeACZOLUWn4RzLlRpSSCcS500LkIbJ_fajiezITmTfew933h_qyEFx8ParJDvcQLJPqwjogs_KDSmx2Fc_zhVxPA8aRBlRl9c26LkCZ24DBMx8CYWv78nJsp3nw1Jo7ncbUOA34elXduHZoyEyw1CJT6A-_rzq6Q4ukMtYNOkKRSskMFI3U53vP928HElSCC3wdQKFmuDszpWv48pbW9psOHL-Ms7pVEHu9ZU8I_ljjHSOGv-zwdk1KZLLZT7YEH4aOhpeEUWd0yXfuRZEYD0v8VYYnLDTxey_t_XGYmH0URZcxj799FtWysiEFiHYcbVLvhjKsO36DiSj_U8Z5SxzABATVQdhndMq6aELamkqEvVyFYSyxfrTpIjL7mZd_1cjcsYOzcRHZ9LSuT0W9Fi1W5kX3Z7S2S8-j81cJs8yeBQyD3QkTKHeBtWOEnlREArRTjiPiMbO37-7zMNVT8ZMG1zGC83Ed3HL0J4gO85Bi2yuGvqN09YBKZvPSgHKBlYANR9pLmit8T3kmApTTyo47loOtqvk2OKHtML5UW3YSQ5R3jHuy0ZA7siqHTjfXY1tqAfrsOvZARu38mYf4gpLFQ85STVjnO8U6pcUcHMUDvhwA4Oe183egb707nBT60ocfOkvz_ZyR-jEmTUU4FGPbbQiwKXf9zIGm8lNO8sRfjoFBVQRSIb8Nf2fDnhnNRnQZSGhgc_V956r8uJZYvlXHXrxPv7Xe3bU2ooINMp3nVaCJNWkz94xDafddhToGWkDDwVCL2KGzgbEgTVSfyEy0FAgvo3Mz_OAi-Hsfn7GWAty2Q7Dxm9579aFLijWe59XnxTqnOjYAh6t6UcP-DB5NCcEcixbuf0cyLo9YV0_COlIPYSs8fTPlpTy5lBK-3QzSfUOysduTfPaqxoWx366Tq0394vjyg86sNhMJ-skdiEqJmE6So_qMteuDUlgLw7oWzSsgN3G_YSXzO16R-pWKHreLMryUlbU16UrLs96n3S0KvWnwfUBPZTSVBHENkwtGxhqEF-44RHBvA1NRAsQ8ksEkJ7t7vyWnsb-bmH7bTxuxgv_6FBY9cCEGz_UU5l6nCPHhdvFFhiu-E0d6DJ9LAsfbQxjnusi3K8xalMEBdVrHLeh0ubAk6ztxk1E308QbfYSwcFuYtDlhSMuy3mOXJ4664bc_jI5lN1sJvgRTTc1CGUJQ573NvefN29_EwvpVDW2uuPo4JyAzt9AWvxzAnTcGsrrQ3Hi-IoNNv93mUqBJfSr8f8IIZD3RTj1NWw_NwpzCH6h-Tn1ohdwUy0J9mggv7vqxv-igsvbe0P8ax9g3Qvv91JbytW6CR74QbNNjzfurPjVNjSW9X4b2AJFMC0kYjVhgN0x1Zo7emM2LPRcLqyc4PHcsbThxm5N6nExSd86z-RDWszzmRUsyVC2QY0C_4Pa7i8-h_VyDdUpWhcoLUAHZpvOFd29KmVoKxbncwCfh_3SypiR9t1WatlIFH_eCuTtdUzs-pwuFch9g1WtIf6z-uo1KKT3ZTjJA34zMAdeD3Gz4TX9kBd6fTAt1FUHlKPdyd2-sez-UFPPfjNNxh_Y1Wp998GRFi70erhNhSXdqNzSESu1yksHzDllFy0xdBFtkv030oEMYWcqKeRXKaaZ7vjJmpzo31lH-ncqevEv3cRAXOf0vB8R-mOaQLsDyaH-zjE7rdpGMfUgeBUUPk4qRZrdCeKGEHhiEzfyUjmQoOnv3LGo5uJSYMprFlv5MeH6VFLO57IBI958un2DHsCb3ucvHaX4fjH4FG0RETNwN3uh4j_kvT9EUjMT8E0igKLz7fY">
+                <div class="card-body">
+                    Два лучших выпускника полицейской академии оказались по
+                    разные стороны баррикады: один из них — агент мафии в рядах
+                    правоохранительных органов, другой — «крот», внедрённый в
+                    мафию. Каждый считает своим долгом обнаружить и уничтожить
+                    противника. </div>
+                <div class="card-footer">
+                    <a class="btn btn-primary" href="https://www.kinopoisk.ru/film/81314/"
+                        style="margin-left: 40%; margin-right: 40%">
+                        Ссылка</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="section3" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+        <div class="container mt-3" style="display: flex;">
+            <div id="informarion">
+                <div class="card" style="width: 500px">
+                    <div class="card-header">
+                        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                            Где родился
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-bs-parent="#information">
+                        <div class="card-body">
+                            Уильям Брэдли Питт родился 18 декабря 1963 года в
+                            городе Шони (штат Оклахома, США), вырос в очень
+                            религиозной американской семье. Его отец, Уильям
+                            Питт, работал менеджером в компании, занимавшейся
+                            грузоперевозками, мать, Джейн Этта Хиллхаус —
+                            психологом-консультантом в местной школе. Он, его
+                            брат Даг Питт и сестра Джулия Питт росли в
+                            Спрингфилде (штат Миссури), куда семья переехала
+                            вскоре после его рождения.
+                        </div>
+                    </div>
+
+                    <div class="card-header">
+                        <a class="btn" data-bs-toggle="collapse" href="#collapseTwo">
+                            Где учился
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-bs-parent="#information">
+                        <div class="card-body">
+                            В школе Питт занимался спортом, состоял в дебатном
+                            клубе, музыкальной секции и участвовал в
+                            студенческом самоуправлении. После школы Уильям
+                            поступил в университет Миссури — Колумбия, где
+                            изучал журналистику и рекламное дело. Однако после
+                            окончания университета по профессии работать он не
+                            пошёл, а отправился в Голливуд с целью начать
+                            актёрскую карьеру. Там он сменил своё имя на «Брэд
+                            Питт».
+
+                            В его честь был назван открытый в 2015 году вид ос
+                            Conobregma bradpitti. </div>
+                    </div>
+                    <div class="card-header">
+                        <a class="btn" data-bs-toggle="collapse" href="#collapseThree">
+                            Личная жизнь
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-bs-parent="#information">
+                        <div class="card-body">
+                            На съёмках триллера «Семь» в 1995 году Брэд сошёлся
+                            с Гвинет Пэлтроу, которая по фильму играла его
+                            жену, и у них завязался продолжительный роман.
+                            Однако, когда уже стали поговаривать o грядущей
+                            свадьбе (помолвка состоялась в декабре 1996 года),
+                            они совершенно неожиданно заявили o разрыве
+                            отношений (в июне 1997 года).
+
+                            29 июля 2000 года Питт женился на актрисе Дженнифер
+                            Энистон. 25 марта 2005 года, после пяти лет
+                            совместной жизни, они расстались. Их брак был
+                            официально расторгнут 2 октября 2005 года.
+
+                            Ещё до оформления развода у Брэда начались отношения
+                            с его партнёршей по фильму «Мистер и миссис Смит»
+                            Анджелиной Джоли. После долгих опровержений 11
+                            января 2006 года пара подтвердила свои отношения,
+                            заявив, что Джоли ждёт ребёнка от Питта.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
